@@ -1,0 +1,29 @@
+@charset "UTF-8";  
+
+/* TODO: You need to know 'CSS Animation' properly. */
+.car {
+  outline: 1px solid white;
+  outline-offset: 1px;
+  transition-property: outline-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+.card:hover {
+  cursor: pointer;
+  outline: 3px solid rgb(13,110,253);
+  outline-offset: 0;
+  transition-property: outline-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+}
+
+/* .card.border-primary {
+  border-color: transparent;
+} */
+
+.card:not(:hover) > .card-body > .d-grid > button:last-child {
+  display: none;
+}
+audio {
+  width: 100%;
+}
