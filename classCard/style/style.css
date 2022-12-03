@@ -17,13 +17,23 @@
   transition-timing-function: ease-out;
 }
 
-/* .card.border-primary {
+.card.border-primary {
   border-color: transparent;
-} */
+}
 
-.card:not(:hover) > .card-body > .d-grid > button:last-child {
+.card:not(:hover) > .card-body > .d-flex > button:last-child {
   display: none;
 }
+
 audio {
+  /* visibility: hidden; */
   width: 100%;
+}
+
+audio p::after {
+  content: ' instead.';
+}
+
+audio p::before {
+  content: 'Your browser doesn\'t support HTML5 audio. Here is a.';
 }
