@@ -36,18 +36,18 @@
   }
 
   const list = [
-    new Card('00000001','go','/kʌm/','가다','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000002','day','/kʌm/','하루, 날; 낮','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000003','story','/kʌm/','이야기','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000004','student','/kʌm/','학생','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000005','big','/kʌm/','큰','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000006','here','/kʌm/','여기에, 이쪽으로','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000007','word','/kʌm/','단어, 낱말','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000008','music','/kʌm/','음악','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000009','like','/kʌm/','좋아하다; ~와 같이, ~처럼','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000010','in','/kʌm/','공간] ~(안)에서; [시간] ~에','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000011','room','/kʌm/','방','sound/go.mp3','sound/go.ogg','sound/go.mp4'),
-    new Card('00000012','happy','/kʌm/','행복한, 기쁜','sound/go.mp3','sound/go.ogg','sound/go.mp4')
+    new Card('00000001','go','/kʌm/','가다','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000002','day','/kʌm/','하루, 날; 낮','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000003','story','/kʌm/','이야기','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000004','student','/kʌm/','학생','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000005','big','/kʌm/','큰','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000006','here','/kʌm/','여기에, 이쪽으로','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000007','word','/kʌm/','단어, 낱말','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000008','music','/kʌm/','음악','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000009','like','/kʌm/','좋아하다; ~와 같이, ~처럼','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000010','in','/kʌm/','공간] ~(안)에서; [시간] ~에','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000011','room','/kʌm/','방','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4'),
+    new Card('00000012','happy','/kʌm/','행복한, 기쁜','/classCard/sound/go.mp3','/classCard/sound/go.ogg','/classCard/sound/go.mp4')
   ]
 
   // Deep copy of source object
