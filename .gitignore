@@ -6,3 +6,4 @@ classCard/.DS_Store
 *.sass.map
 *.scss.map
 
+.gitignore.swp
