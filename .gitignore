@@ -1,3 +1,8 @@
 
+bootstrap/.DS_Store
 classCard/.DS_Store
 .DS_Store
+*.css.map
+*.sass.map
+*.scss.map
+
